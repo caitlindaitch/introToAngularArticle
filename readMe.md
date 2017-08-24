@@ -1,4 +1,4 @@
-#JavaScript Frameworks: Intro to Angular#
+# JavaScript Frameworks: Intro to Angular
 
 I've always found that the biggest hurdle in learning to program--the one that holds you back from making big leaps in understanding--is grasping the answer to the question, "why do I care?"
 
@@ -12,11 +12,11 @@ Here are your options:
 
 2. Use a JavaScript framework, such as AngularJS. The beauty of Angular is that you can connect anything in the application to a model value, and manipulate all of them simultaneously with minimal code. Simply define a model value on the checkbox element and use conditional styling around the label which will automatically update when the checkbox is checked or unchecked. Don't worry if this isn't totally clicking yet; just keep reading.
 
-##Your First AngularJS App##
+## Your First AngularJS App
 
 This introduction uses AngularJS version 1.6, which I consider ideal for beginners since it's well established, has a significant support base, and doesn't require TypeScript. AngularJS is still widely used and is an excellent first JavaScript framework to learn. Once you have the basics, you'll be in a much better place to start working with Angular 2 or Angular 4, and even React.
 
-###Step One: Starter Code###
+### Step One: Starter Code
 
 First, as you probably know, you need a boilerplate HTML file and a JavaScript file to start with. We'll use the following starter code for our HTML, and you can save it as `to-do-app.html`.
 
@@ -40,7 +40,7 @@ First, as you probably know, you need a boilerplate HTML file and a JavaScript f
 
 In our `script.js` file, I like to start out with a simple `console.log('Hello');` statement to ensure that it's referenced properly.
 
-###Step Two: Angular Initialization###
+### Step Two: Angular Initialization
 
 An AngularJS application is initialized by creating an app, also known as an Angular module, which surrounds your entire application. To do this, we'll write some very simple code which will link our HTML to the angular application we'll be writing.
 
@@ -56,7 +56,7 @@ Now, creating the app in your JavaScript file alone is not enough to connect it 
 
 `ng-app="toDoModule"`
 
-###Step Three: Start Writing Your App###
+### Step Three: Start Writing Your App
 
 For the purposes of this introduction, we're simply going to link our checkbox's value to the label contents. The label text should display a strike through it once the input has been checked, indicating that the task has been completed.
 
