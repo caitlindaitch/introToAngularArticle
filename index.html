@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style type="text/css">
+			.text-decoration-strike {
+				text-decoration: line-through;
+			}
+		</style>
+		<title>Sample</title>
+	</head>
+	<body ng-app="toDoModule" ng-controller="toDoController as toDo">
+		<h1>Caitlin's To-Do List</h1>
+		<input type="checkbox" ng-model="toDo.writeIntroTask" />
+		<label ng-class="{ 'text-decoration-strike' : toDo.writeIntroTask }">Write Intro to AngularJS article</label>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+		<script src="./script.js"></script>
+	</body>
+</html>
