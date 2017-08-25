@@ -1,4 +1,4 @@
-# JavaScript Frameworks: Intro to Angular
+# JavaScript Frameworks: Intro to AngularJS
 
 I've always found that the biggest hurdle in learning to program--the one that holds you back from making big leaps in understanding--is grasping the answer to the question, "why do I care?"
 
